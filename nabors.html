@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Диагностические наборы</title>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20221018014251" />
+   <link rel="stylesheet" href="css/style.min.css?_v=20221018014251">
+   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js?_v=20221018014251" defer></script>
+   <script src="js/app.min.js?_v=20221018014251" defer></script>
+</head>
+
+<body>
+   <div class="page page-nabors">
+      <div class="container">
+   <header class="header">
+      <nav class="nav">
+         <div class="burger burger__nav">
+            <div class="burger__line"></div>
+            <div class="burger__line"></div>
+            <div class="burger__line"></div>
+            <div class="burger__line"></div>
+         </div>
+         <ul class="nav__list">
+            <li class="nav__item">
+               <a href="about.html" class="nav__link">О компании</a>
+            </li>
+            <li class="nav__item">
+               <a href="#" class="nav__link">Оплата и доставка</a>
+            </li>
+            <li class="nav__item">
+               <a href="#" class="nav__link">Статьи</a>
+            </li>
+            <li class="nav__item">
+               <a href="news.html" class="nav__link">Новости</a>
+            </li>
+            <li class="nav__item">
+               <a href="#" class="nav__link">Видео</a>
+            </li>
+            <li class="nav__item">
+               <a href="contact.html" class="nav__link">Контакты</a>
+            </li>
+            <div class="nav__remove">
+               <div class="nav__remove__line"></div>
+               <div class="nav__remove__line"></div>
+            </div>
+         </ul>
+      </nav>
+      <main class="header__main">
+         <a href="index.html" class="header__logo">
+            <img src="images/logo.svg" alt="logo" class="img-con">
+         </a>
+         <div class="header__block">
+            <span class="header__text">Официальный дистрибьютор продукции КаWe (Германия)</span>
+            <span class="header__text">Эксклюзивный дистрибьютор приборов Dr. Hoenle Medizintechnik (Германия)</span>
+         </div>
+         <div class="header__logotypes">
+            <a href="builder.html" class="header__logotype">
+               <img src="images/kawe.svg" alt="logo" class="img-con">
+            </a>
+            <a href="builder.html" class="header__logotype">
+               <img src="images/honle.svg" alt="logo" class="img-con">
+            </a>
+         </div>
+         <div class="header__block">
+            <div class="header__phone">
+               <a href="tel: +78123263006" class="header__phone__number">+7 (812) 326 30 06</a>
+               <span class="header__phone__text">Санкт-Петербург</span>
+            </div>
+            <div class="header__phone">
+               <a href="tel: +74993221173" class="header__phone__number">+7 (499) 322 11 73</a>
+               <span class="header__phone__text">Москва</span>
+            </div>
+         </div>
+         <div class="header__right">
+            <span class="header__right__clock">Пн – Пт: 10:00 - 18:00</span>
+            <a href="#popup-tovar" class="header__right__button button popup__link">Заказать звонок</a>
+         </div>
+      </main>
+      <footer class="header__footer">
+         <div class="header__footer__left">
+            <div class="header__footer__item item__burger">
+               <span class="header__footer__item__link">Каталог</span>
+               <div class="burger">
+                  <div class="burger__line"></div>
+                  <div class="burger__line"></div>
+                  <div class="burger__line"></div>
+                  <div class="burger__line"></div>
+               </div>
+            </div>
+            <div class="header__footer__item">
+               <a href="builders.html" class="header__footer__item__link">Производители</a>
+            </div>
+            <div class="header__footer__item">
+               <a href="index.html#new" class="header__footer__item__link">Новинки</a>
+            </div>
+            <div class="header__footer__item">
+               <a href="#" class="header__footer__item__link">Акции и Спецпредложения</a>
+            </div>
+         </div>
+         <div class="header__footer__right">
+            <input type="text" class="header__footer__right__input" placeholder="Найти в каталоге">
+            <button class="header__footer__right__button">
+               <img src="images/search.svg" alt="find" class="img-con">
+            </button>
+         </div>
+      </footer>
+      <section class="header__catalog">
+         <div class="header__content">
+            <div class="catalog__header">
+               <h2 class="catalog__title title">Каталог</h2>
+               <div class="header__footer__right">
+                  <input type="text" class="header__footer__right__input" placeholder="Найти в каталоге">
+                  <button class="header__footer__right__button">
+                     <img src="images/search.svg" alt="find" class="img-con">
+                  </button>
+               </div>
+            </div>
+            <div class="catalog__header__content">
+               <div class="catalog__header__content__item">
+                  <div class="catalog__header__content__item__text">
+                     <a href="#" class="catalog__item__title">Аппараты Dermalight</a>
+                     <a href="#" class="catalog__header__link">Dermalight® 1000</a>
+                     <a href="#" class="catalog__header__link">Dermalight® 80</a>
+                     <a href="#" class="catalog__header__link">Сопутствующие товары</a>
+                  </div>
+                  <a href="nabors.html" class="catalog__header__button button">Весь каталог</a>
+               </div>
+               <div class="catalog__header__content__item">
+                  <div class="catalog__header__content__item__text">
+                     <a href="#" class="catalog__item__title">Дерматоскопы Kawe (Германия)</a>
+                     <a href="#" class="catalog__header__link">Дерматоскопы Kawe (Германия)</a>
+                     <a href="#" class="catalog__header__link">Дополнительные принадлежнасти для дерматоскопов Kawe</a>
+                  </div>
+                  <a href="nabors.html" class="catalog__header__button button">Весь каталог</a>
+               </div>
+               <div class="catalog__header__content__item">
+                  <div class="catalog__header__content__item__text">
+                     <a href="#" class="catalog__item__title">Диагностические наборы</a>
+                     <a href="#" class="catalog__header__link">Диагностические наборы KaWe Бейсик-Сет</a>
+                     <a href="#" class="catalog__header__link">Диагностические наборы KaWe Комбилайт</a>
+                     <a href="#" class="catalog__header__link">Дополнительные принадлежности для наборов
+                        диагностических</a>
+                  </div>
+                  <a href="nabors.html" class="catalog__header__button button">Весь каталог</a>
+               </div>
+               <div class="catalog__header__content__item">
+                  <div class="catalog__header__content__item__text">
+                     <a href="#" class="catalog__item__title">Ларингоскопы Kawe (Германия)</a>
+                     <a href="#" class="catalog__header__link">Дополнительные принадлежности для ларингоскопов KaWe</a>
+                     <a href="#" class="catalog__header__link">Ларингоскопы KaWe лампочные</a>
+                     <a href="#" class="catalog__header__link">Ларингоскопы KaWe Ф.O.</a>
+                  </div>
+                  <a href="nabors.html" class="catalog__header__button button">Весь каталог</a>
+               </div>
+               <div class="catalog__header__content__item">
+                  <div class="catalog__header__content__item__text">
+                     <a href="#" class="catalog__item__title">Аппараты Dermalight</a>
+                     <a href="#" class="catalog__header__link">Dermalight® 1000</a>
+                     <a href="#" class="catalog__header__link">Dermalight® 80</a>
+                     <a href="#" class="catalog__header__link">Сопутствующие товары</a>
+                  </div>
+                  <a href="nabors.html" class="catalog__header__button button">Весь каталог</a>
+               </div>
+               <div class="catalog__header__content__item">
+                  <div class="catalog__header__content__item__text">
+                     <a href="#" class="catalog__item__title">Отоскопы KaWe (Германия)</a>
+                     <a href="#" class="catalog__header__link">Дополнительные принадлежности для отоскопов KaWe</a>
+                     <a href="#" class="catalog__header__link">Отоскопы Евролайт KaWe (Германия)</a>
+                     <a href="#" class="catalog__header__link">Отоскопы Комбилайт KaWe (Германия)</a>
+                     <a href="#" class="catalog__header__link">Отоскопы Пикколайт KaWe (Германия)</a>
+                  </div>
+                  <a href="nabors.html" class="catalog__header__button button">Весь каталог</a>
+               </div>
+               <div class="catalog__header__content__item">
+                  <div class="catalog__header__content__item__text">
+                     <a href="#" class="catalog__item__title">Офтальмоскопы KaWe (Германия)</a>
+                     <a href="#" class="catalog__header__link">Офтальмоскопы Евролайт KaWe (Германия)</a>
+                     <a href="#" class="catalog__header__link">Офтальмоскопы Пикколайт KaWe (Германия)</a>
+                  </div>
+                  <a href="nabors.html" class="catalog__header__button button">Весь каталог</a>
+               </div>
+               <div class="catalog__header__content__item">
+                  <div class="catalog__header__content__item__text">
+                     <a href="#" class="catalog__item__title">Стетофонендоскопы KaWe (Германия)</a>
+                     <a href="#" class="catalog__header__link">Модели с воронкой</a>
+                     <a href="#" class="catalog__header__link">Серия КАРДИОЛОГИЯ</a>
+                     <a href="#" class="catalog__header__link">Серия ПЛАНЕТ</a>
+                     <a href="#" class="catalog__header__link">Серия ПРЕСТИЖ</a>
+                     <a href="#" class="catalog__header__link">Серия РАППОРТ</a>
+                     <a href="#" class="catalog__header__link">Серия Эконом-класса</a>
+                  </div>
+                  <a href="nabors.html" class="catalog__header__button button">Весь каталог</a>
+               </div>
+               <div class="catalog__header__content__item">
+                  <div class="catalog__header__content__item__text">
+                     <a href="#" class="catalog__item__title">Аппараты Dermalight</a>
+                     <a href="#" class="catalog__header__link">Dermalight® 1000</a>
+                     <a href="#" class="catalog__header__link">Dermalight® 80</a>
+                     <a href="#" class="catalog__header__link">Сопутствующие товары</a>
+                  </div>
+                  <a href="nabors.html" class="catalog__header__button button">Весь каталог</a>
+               </div>
+               <div class="catalog__header__content__item">
+                  <div class="catalog__header__content__item__text">
+                     <a href="#" class="catalog__item__title">Дерматоскопы Kawe (Германия)</a>
+                     <a href="#" class="catalog__header__link">Дерматоскопы Kawe (Германия)</a>
+                     <a href="#" class="catalog__header__link">Дополнительные принадлежнасти для дерматоскопов Kawe</a>
+                  </div>
+                  <a href="nabors.html" class="catalog__header__button button">Весь каталог</a>
+               </div>
+               <div class="catalog__header__content__item">
+                  <div class="catalog__header__content__item__text">
+                     <a href="#" class="catalog__item__title">Диагностические наборы</a>
+                     <a href="#" class="catalog__header__link">Диагностические наборы KaWe Бейсик-Сет</a>
+                     <a href="#" class="catalog__header__link">Диагностические наборы KaWe Комбилайт</a>
+                     <a href="#" class="catalog__header__link">Дополнительные принадлежности для наборов
+                        диагностических</a>
+                  </div>
+                  <a href="nabors.html" class="catalog__header__button button">Весь каталог</a>
+               </div>
+               <div class="catalog__header__content__item">
+                  <div class="catalog__header__content__item__text">
+                     <a href="#" class="catalog__item__title">Ларингоскопы Kawe (Германия)</a>
+                     <a href="#" class="catalog__header__link">Дополнительные принадлежности для ларингоскопов KaWe</a>
+                     <a href="#" class="catalog__header__link">Ларингоскопы KaWe лампочные</a>
+                     <a href="#" class="catalog__header__link">Ларингоскопы KaWe Ф.O.</a>
+                  </div>
+                  <a href="nabors.html" class="catalog__header__button button">Весь каталог</a>
+               </div>
+               <div class="catalog__header__content__item">
+                  <div class="catalog__header__content__item__text">
+                     <a href="#" class="catalog__item__title">Аппараты Dermalight</a>
+                     <a href="#" class="catalog__header__link">Dermalight® 1000</a>
+                     <a href="#" class="catalog__header__link">Dermalight® 80</a>
+                     <a href="#" class="catalog__header__link">Сопутствующие товары</a>
+                  </div>
+                  <a href="nabors.html" class="catalog__header__button button">Весь каталог</a>
+               </div>
+               <div class="catalog__header__content__item">
+                  <div class="catalog__header__content__item__text">
+                     <a href="#" class="catalog__item__title">Отоскопы KaWe (Германия)</a>
+                     <a href="#" class="catalog__header__link">Дополнительные принадлежности для отоскопов KaWe</a>
+                     <a href="#" class="catalog__header__link">Отоскопы Евролайт KaWe (Германия)</a>
+                     <a href="#" class="catalog__header__link">Отоскопы Комбилайт KaWe (Германия)</a>
+                     <a href="#" class="catalog__header__link">Отоскопы Пикколайт KaWe (Германия)</a>
+                  </div>
+                  <a href="nabors.html" class="catalog__header__button button">Весь каталог</a>
+               </div>
+               <div class="catalog__header__content__item">
+                  <div class="catalog__header__content__item__text">
+                     <a href="#" class="catalog__item__title">Офтальмоскопы KaWe (Германия)</a>
+                     <a href="#" class="catalog__header__link">Офтальмоскопы Евролайт KaWe (Германия)</a>
+                     <a href="#" class="catalog__header__link">Офтальмоскопы Пикколайт KaWe (Германия)</a>
+                  </div>
+                  <a href="nabors.html" class="catalog__header__button button">Весь каталог</a>
+               </div>
+               <div class="catalog__header__content__item">
+                  <div class="catalog__header__content__item__text">
+                     <a href="#" class="catalog__item__title">Стетофонендоскопы KaWe (Германия)</a>
+                     <a href="#" class="catalog__header__link">Модели с воронкой</a>
+                     <a href="#" class="catalog__header__link">Серия КАРДИОЛОГИЯ</a>
+                     <a href="#" class="catalog__header__link">Серия ПЛАНЕТ</a>
+                     <a href="#" class="catalog__header__link">Серия ПРЕСТИЖ</a>
+                     <a href="#" class="catalog__header__link">Серия РАППОРТ</a>
+                     <a href="#" class="catalog__header__link">Серия Эконом-класса</a>
+                  </div>
+                  <a href="nabors.html" class="catalog__header__button button">Весь каталог</a>
+               </div>
+            </div>
+         </div>
+      </section>
+   </header>
+</div>
+      <section class="banner">
+   <div class="container">
+      <div class="banner__content">
+         <div class="banner__backg">
+            <picture><source srcset="images/banner.webp" type="image/webp"><img src="images/banner.png" alt="" class="img-ab"></picture>
+         </div>
+         <div class="banner__text">
+            <div class="banner__links">
+               <a href="#" class="banner__link">Главная /</a>
+               <a href="#" class="banner__link">Товары /</a>
+               <a href="#" class="banner__link active">Диагностические наборы</a>
+            </div>
+            <h1 class="banner__titile title">Диагностические наборы</h1>
+         </div>
+      </div>
+   </div>
+</section>
+      <section class="nabor-tovars">
+   <div class="profit__decor">
+   </div>
+   <div class="container">
+      <div class="nabor-tovars__content">
+         <div class="nabor-tovars__content__item">
+            <a href="#" class="nabor-tovars__content__item__img">
+               <picture><source srcset="images/tovars.webp" type="image/webp"><img src="images/tovars.png" alt="img" class="img-ab"></picture>
+            </a>
+            <a href="#" class="nabor-tovars__content__item__name">Ларингоскопы KaWe лампочные</a>
+         </div>
+         <div class="nabor-tovars__content__item">
+            <a href="#" class="nabor-tovars__content__item__img">
+               <picture><source srcset="images/tovars.webp" type="image/webp"><img src="images/tovars.png" alt="img" class="img-ab"></picture>
+            </a>
+            <a href="#" class="nabor-tovars__content__item__name">Ларингоскопы KaWe лампочные</a>
+         </div>
+         <div class="nabor-tovars__content__item">
+            <a href="#" class="nabor-tovars__content__item__img">
+               <picture><source srcset="images/tovars.webp" type="image/webp"><img src="images/tovars.png" alt="img" class="img-ab"></picture>
+            </a>
+            <a href="#" class="nabor-tovars__content__item__name">Ларингоскопы KaWe лампочные</a>
+         </div>
+         <div class="nabor-tovars__content__item">
+            <a href="#" class="nabor-tovars__content__item__img">
+               <picture><source srcset="images/tovars.webp" type="image/webp"><img src="images/tovars.png" alt="img" class="img-ab"></picture>
+            </a>
+            <a href="#" class="nabor-tovars__content__item__name">Ларингоскопы KaWe лампочные</a>
+         </div>
+      </div>
+   </div>
+</section>
+      <section class="catalog">
+   <div class="container">
+      <div class="catalog__content">
+         <div class="catalog__header__tovars">
+            <div class="catalog__header__left">
+               <span class="catalog__number">Представлено 4 товара</span>
+               <div class="catalog__select">
+                  <div class="catalog__select__content">
+                     <span class="catalog__select__text">Исходная сортировка</span>
+                     <div class="catalog__select__img">
+                        <img src="images/select.svg" alt="select" class="img-con">
+                     </div>
+                  </div>
+                  <div class="catalog__select__optioins">
+                     <span class="catalog__select__optioins__text">Исходная сортировка</span>
+                     <span class="catalog__select__optioins__text">Другая сортировка</span>
+                  </div>
+               </div>
+            </div>
+            <div class="catalog__hrader__right">
+               <div class="catalog__hrader__right__item-one">
+                  <div class="catalog__hrader__right__item-one__content"></div>
+                  <div class="catalog__hrader__right__item-one__content"></div>
+                  <div class="catalog__hrader__right__item-one__content"></div>
+                  <div class="catalog__hrader__right__item-one__content"></div>
+               </div>
+               <div class="catalog__hrader__right__item-two active">
+                  <div class="catalog__hrader__right__item-two__content""></div>
+                  <div class=" catalog__hrader__right__item-two__content""></div>
+                  <div class="catalog__hrader__right__item-two__content""></div>
+               </div>
+            </div>
+         </div>
+         <div class=" catalog__main">
+                     <div class=" swiper swiper-catalog-main">
+                        <div class="swiper-wrapper">
+                           <div class="swiper-slide ">
+                              <div class="catalog__pelative__block">
+                                 <div class="swiper-slide__item">
+                                    <div class="by__content__marker">В продаже</div>
+                                    <div class="new__content__marker">Новинка</div>
+                                    <a href="#" class="catalog-slider__img">
+                                       <picture><source srcset="images/nabors.webp" type="image/webp"><img src="images/nabors.png" alt="img" class="img-ab"></picture>
+                                    </a>
+                                    <div class="catalog-slider__text">
+                                       <a href="#" class="catalog-slider__name">Дерматоскоп KaWe Пикколайт D 2,5B
+                                          (Германия)</a>
+                                       <ul class="catalog-slider__list">
+                                          <li class="catalog-slider__list__item">Бейзик С10 разработан специально для
+                                             практики Лор-врачей</li>
+                                          <li class="catalog-slider__list__item"> Это классический набор — незаменимый
+                                             помощник для практикующих врачей</li>
+                                          <li class="catalog-slider__list__item">В удобном чемоданчике в компактном виде
+                                             собраны все необходимые инструменты</li>
+                                       </ul>
+                                       <a href="#" class="new__tovar__link">Дерматоскопы KaWe (Германия)</a>
+                                       <a href="tovar.html" class="catalog-slider__button button">Подробнее</a>
+                                       <a href="#" class="catalog-slider__button__kp button-transperent">Получить КП</a>
+                                    </div>
+                                    <div class="catalof-slider__info">
+                                       <div class="catalog-slider__arcktl">Артикул: 06.22712.042</div>
+                                       <div class="catalog-slider__price">
+                                          <span class="catalog-slider__price__text">Цена:</span>
+                                          <span class="catalog-slider__price__number">По запросу</span>
+                                       </div>
+                                       <a href="#" class="catalog-slider__button__kp button-transperent">Получить КП</a>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="catalog__pelative__block">
+                                 <div class="swiper-slide__item">
+                                    <div class="by__content__marker">В продаже</div>
+                                    <div class="new__content__marker">Новинка</div>
+                                    <a href="#" class="catalog-slider__img">
+                                       <picture><source srcset="images/nabors.webp" type="image/webp"><img src="images/nabors.png" alt="img" class="img-ab"></picture>
+                                    </a>
+                                    <div class="catalog-slider__text">
+                                       <a href="#" class="catalog-slider__name">Дерматоскоп KaWe Пикколайт D 2,5B
+                                          (Германия)</a>
+                                       <ul class="catalog-slider__list">
+                                          <li class="catalog-slider__list__item">Бейзик С10 разработан специально для
+                                             практики Лор-врачей</li>
+                                          <li class="catalog-slider__list__item"> Это классический набор — незаменимый
+                                             помощник для практикующих врачей</li>
+                                          <li class="catalog-slider__list__item">В удобном чемоданчике в компактном виде
+                                             собраны все необходимые инструменты</li>
+                                       </ul>
+                                       <a href="#" class="new__tovar__link">Дерматоскопы KaWe (Германия)</a>
+                                       <a href="tovar.html" class="catalog-slider__button button">Подробнее</a>
+                                       <a href="#" class="catalog-slider__button__kp button-transperent">Получить КП</a>
+                                    </div>
+                                    <div class="catalof-slider__info">
+                                       <div class="catalog-slider__arcktl">Артикул: 06.22712.042</div>
+                                       <div class="catalog-slider__price">
+                                          <span class="catalog-slider__price__text">Цена:</span>
+                                          <span class="catalog-slider__price__number">По запросу</span>
+                                       </div>
+                                       <a href="#" class="catalog-slider__button__kp button-transperent">Получить КП</a>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="catalog__pelative__block">
+                                 <div class="swiper-slide__item">
+                                    <div class="by__content__marker">В продаже</div>
+                                    <div class="new__content__marker">Новинка</div>
+                                    <a href="#" class="catalog-slider__img">
+                                       <picture><source srcset="images/nabors.webp" type="image/webp"><img src="images/nabors.png" alt="img" class="img-ab"></picture>
+                                    </a>
+                                    <div class="catalog-slider__text">
+                                       <a href="#" class="catalog-slider__name">Дерматоскоп KaWe Пикколайт D 2,5B
+                                          (Германия)</a>
+                                       <ul class="catalog-slider__list">
+                                          <li class="catalog-slider__list__item">Бейзик С10 разработан специально для
+                                             практики Лор-врачей</li>
+                                          <li class="catalog-slider__list__item"> Это классический набор — незаменимый
+                                             помощник для практикующих врачей</li>
+                                          <li class="catalog-slider__list__item">В удобном чемоданчике в компактном виде
+                                             собраны все необходимые инструменты</li>
+                                       </ul>
+                                       <a href="#" class="new__tovar__link">Дерматоскопы KaWe (Германия)</a>
+                                       <a href="tovar.html" class="catalog-slider__button button">Подробнее</a>
+                                       <a href="#" class="catalog-slider__button__kp button-transperent">Получить КП</a>
+                                    </div>
+                                    <div class="catalof-slider__info">
+                                       <div class="catalog-slider__arcktl">Артикул: 06.22712.042</div>
+                                       <div class="catalog-slider__price">
+                                          <span class="catalog-slider__price__text">Цена:</span>
+                                          <span class="catalog-slider__price__number">По запросу</span>
+                                       </div>
+                                       <a href="#" class="catalog-slider__button__kp button-transperent">Получить КП</a>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="catalog__pelative__block">
+                                 <div class="swiper-slide__item">
+                                    <div class="by__content__marker">В продаже</div>
+                                    <div class="new__content__marker">Новинка</div>
+                                    <a href="#" class="catalog-slider__img">
+                                       <picture><source srcset="images/nabors.webp" type="image/webp"><img src="images/nabors.png" alt="img" class="img-ab"></picture>
+                                    </a>
+                                    <div class="catalog-slider__text">
+                                       <a href="#" class="catalog-slider__name">Дерматоскоп KaWe Пикколайт D 2,5B
+                                          (Германия)</a>
+                                       <ul class="catalog-slider__list">
+                                          <li class="catalog-slider__list__item">Бейзик С10 разработан специально для
+                                             практики Лор-врачей</li>
+                                          <li class="catalog-slider__list__item"> Это классический набор — незаменимый
+                                             помощник для практикующих врачей</li>
+                                          <li class="catalog-slider__list__item">В удобном чемоданчике в компактном виде
+                                             собраны все необходимые инструменты</li>
+                                       </ul>
+                                       <a href="#" class="new__tovar__link">Дерматоскопы KaWe (Германия)</a>
+                                       <a href="tovar.html" class="catalog-slider__button button">Подробнее</a>
+                                       <a href="#" class="catalog-slider__button__kp button-transperent">Получить КП</a>
+                                    </div>
+                                    <div class="catalof-slider__info">
+                                       <div class="catalog-slider__arcktl">Артикул: 06.22712.042</div>
+                                       <div class="catalog-slider__price">
+                                          <span class="catalog-slider__price__text">Цена:</span>
+                                          <span class="catalog-slider__price__number">По запросу</span>
+                                       </div>
+                                       <a href="#" class="catalog-slider__button__kp button-transperent">Получить КП</a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="catalog__footer">
+                     <div class="fraction">
+                        <div class="fraction__item">
+                           <div class="fraction__img">
+                              <img src="images/fraction__arrow.svg" alt="" class="img-ab">
+                           </div>
+                        </div>
+                        <div class="fraction__item active">
+                           1
+                        </div>
+                        <div class="fraction__item">
+                           2
+                        </div>
+                        <div class="fraction__item">
+                           ...
+                        </div>
+                        <div class="fraction__item">
+                           12
+                        </div>
+                        <div class="fraction__item">
+                           <div class="fraction__img">
+                              <img src="images/fraction__arrow.svg" alt="" class="img-ab">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+</section>
+      <seection class="profit">
+   <div class="profit__decor">
+   </div>
+   <div class="container">
+      <h2 class="profit__title title">Наши преимущества</h2>
+      <div class="profit__content">
+         <div class="profit__content__item">
+            <div class="profit__content__item__text">
+               <span class="profit__main-text">Прямые поставки от производителя</span>
+               <span class="profit__about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                  bibendum laoreet.</span>
+            </div>
+            <div class="profit__img">
+               <img src="images/profit-1.svg" alt="logotype" class="img-con">
+            </div>
+         </div>
+         <div class="profit__content__item">
+            <div class="profit__content__item__text">
+               <span class="profit__main-text">Гибкие условия оплаты</span>
+               <span class="profit__about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                  bibendum laoreet.</span>
+            </div>
+            <div class="profit__img">
+               <img src="images/profit-2.svg" alt="logotype" class="img-con">
+            </div>
+         </div>
+         <div class="profit__content__item">
+            <div class="profit__content__item__text">
+               <span class="profit__main-text">Гарантиии и сервис</span>
+               <span class="profit__about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                  bibendum laoreet.</span>
+            </div>
+            <div class="profit__img">
+               <img src="images/profit-3.svg" alt="logotype" class="img-con">
+            </div>
+         </div>
+         <div class="profit__content__item">
+            <div class="profit__content__item__text">
+               <span class="profit__main-text">Доставка по России</span>
+               <span class="profit__about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                  bibendum laoreet.</span>
+            </div>
+            <div class="profit__img">
+               <img src="images/profit-4.svg" alt="logotype" class="img-con">
+            </div>
+         </div>
+      </div>
+   </div>
+</seection>
+      <section class="diagnostic">
+   <div class="container">
+      <div class="diagnostic__content">
+         <div class="diagnostic__content__left">
+            <h2 class="ofical__title title">Диагностические наборы</h2>
+            <p class="ofical__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
+               laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic
+               tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum,
+               nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan
+               eget.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin
+               gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis
+               natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus
+               pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget.</p>
+            <p class="ofical__text select-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+               bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales
+               pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+               Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc
+               accuan eget.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
+               Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor.
+               Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla
+               luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget. </p>
+            <span class="ofical__more">Развернуть</span>
+            <span class="ofical__more ofical__more__repick">Свернуть</span>
+         </div>
+         <div class="diagnostic__content__right">
+            <div class="diagnostic__content__right__img">
+               <picture><source srcset="images/diagnostic.webp" type="image/webp"><img src="images/diagnostic.png" alt="img" class="img-ab"></picture>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+      <section class="podgotovka">
+   <div class="container">
+      <div class="podgotovka__content">
+         <div class="podgotovka__content__left">
+            <span class="podgotovka__title">Подготовим для вас идивидуальное предложение
+               по необходимой продукции и проконсультируем по всем вопросам</span>
+            <a href="#" class="podgotovka__button button">Отправить заявку</a>
+         </div>
+         <div class="podgotovka__right">
+            <div class="podgotovka__right__img">
+               <picture><source srcset="images/mans.webp" type="image/webp"><img src="images/mans.png" alt="img" class="img-ab"></picture>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+      <section class="reclame">
+   <div class="container">
+      <div class="reclame__content">
+         <div class="reclame__content__item">
+            <div class="reclame__content__item__header">
+               <h3 class="reclame__title">Новости компании</h3>
+               <a href="#" class="reclame__button button-transperent">Отправить заявку</a>
+            </div>
+            <div class="reclame__content__item__small">
+               <div class="reclame__img">
+                  <picture><source srcset="images/reclame-small-1.webp" type="image/webp"><img src="images/reclame-small-1.png" alt="img" class="img-ab"></picture>
+               </div>
+               <div class="reclame__text">
+                  <span class="reclame__data">01.01.1970</span>
+                  <a href="new.html" class="recalme__main">Заголовок новости со ссылкой</a>
+                  <p class="reclame__about">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                     bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Lorem ipsum
+                     dolor sit amet, consectetur adipiscing elit.</p>
+               </div>
+            </div>
+            <div class="reclame__content__item__big">
+               <div class="reclame__img">
+                  <picture><source srcset="images/reclame-big-2.webp" type="image/webp"><img src="images/reclame-big-2.png" alt="img" class="img-ab"></picture>
+               </div>
+               <div class="reclame__text">
+                  <span class="reclame__data">01.01.1970</span>
+                  <a href="new.html" class="recalme__main">Заголовок статьи со ссылкой</a>
+                  <p class="reclame__about">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                     bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Lorem ipsum
+                     dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreetLorem ipsum dolor sit
+                     amet, consectetur adipiscing elit.</p>
+               </div>
+            </div>
+         </div>
+         <div class="reclame__content__item">
+            <div class="reclame__content__item__header">
+               <h3 class="reclame__title">Свежие публикации</h3>
+               <a href="news.html" class="reclame__button button-transperent">Все статьи</a>
+            </div>
+            <div class="reclame__content__item__big">
+               <div class="reclame__img">
+                  <picture><source srcset="images/reclame-big-1.webp" type="image/webp"><img src="images/reclame-big-1.png" alt="img" class="img-ab"></picture>
+               </div>
+               <div class="reclame__text">
+                  <span class="reclame__data">01.01.1970</span>
+                  <a href="new.html" class="recalme__main">Заголовок статьи со ссылкой</a>
+                  <p class="reclame__about">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                     bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Lorem ipsum
+                     dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreetLorem ipsum dolor sit
+                     amet, consectetur adipiscing elit.</p>
+               </div>
+            </div>
+            <div class="reclame__content__item__small">
+               <div class="reclame__img">
+                  <picture><source srcset="images/reclame-small-2.webp" type="image/webp"><img src="images/reclame-small-2.png" alt="img" class="img-ab"></picture>
+               </div>
+               <div class="reclame__text">
+                  <span class="reclame__data">01.01.1970</span>
+                  <a href="new.html" class="recalme__main">Заголовок новости со ссылкой</a>
+                  <p class="reclame__about">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                     bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Lorem ipsum
+                     dolor sit amet, consectetur adipiscing elit.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+      <footer class="footer">
+   <div class="container">
+      <div class="footer__content">
+         <div class="footer__content__center">
+            <a href="index.html" class="footer__content__center__item">
+               <img src="images/logo.svg" alt="img" class="img-con">
+            </a>
+            <ul class="footer__content__center__item">
+               <li class="footer__title">Информация</li>
+               <li class="footer__text">
+                  <a href="about.html">О компании</a>
+               </li>
+               <li class="footer__text">
+                  <a href="#">Статьи</a>
+               </li>
+               <li class="footer__text">
+                  <a href="news.html">Новости</a>
+               </li>
+               <li class="footer__text">
+                  <a href="#">Видео</a>
+               </li>
+            </ul>
+            <ul class="footer__content__center__item">
+               <li class="footer__title">Покупателям</li>
+               <li class="footer__text">
+                  <a href="#">Оплата и доставка</a>
+               </li>
+               <li class="footer__text">
+                  <a href="builders.html">Производители</a>
+               </li>
+               <li class="footer__text">
+                  <a href="contact.html">Контакты</a>
+               </li>
+               </li>
+            </ul>
+            <ul class="footer__content__center__item">
+               <li class="footer__title">Каталог</li>
+               <li class="footer__text">
+                  <a href="#">Аппараты Dermalight</a>
+               </li>
+               <li class="footer__text">
+                  <a href="#">Ветеринария Kawe (Германия)</a>
+               </li>
+               <li class="footer__text">
+                  <a href="#">Дерматоскопы Kawe (Германия)</a>
+               </li>
+               <li class="footer__text">
+                  <a href="#">Инфузионные стойки Kawe (Германия)</a>
+               </li>
+               <li class="footer__text">
+                  <a href="#">Ларингоскопы Kawe (Германия)</a>
+               </li>
+               <li class="footer__text">
+                  <a href="#">Фонарики и ростометры</a>
+               </li>
+            </ul>
+            <ul class="footer__content__center__item">
+               <li class="footer__text">
+                  <a href="#">Налобные осветители Kawe (Германия)</a>
+               </li>
+               <li class="footer__text">
+                  <a href="#">Отоскопы Kawe (Германия)</a>
+               </li>
+               <li class="footer__text">
+                  <a href="#">Офтальмоскопы Kawe (Германия)</a>
+               </li>
+               <li class="footer__text">
+                  <a href="#">Смотровые светильники Kawe (Германия)</a>
+               </li>
+               <li class="footer__text">
+                  <a href="#">Стетофонендоскопы Kawe (Германия)</a>
+               </li>
+               <li class="footer__text">
+                  <a href="#">Диагностические наборы</a>
+               </li>
+               <li class="footer__text">
+                  <a href="#">Зарядное устройство и аккумуляторы</a>
+               </li>
+            </ul>
+         </div>
+         <div class="footer__content__bottom">
+            <span class="footer__copy">Copyright © 2022 nordmedica.ru </span>
+            <div class="footer__bottom">
+               <a href="text.html" class="footer__bottom__link">Политика конфиденциальности</a>
+               <a href="text.html" class="footer__bottom__link">Пользовательское соглашение</a>
+               <a href="text.html" class="footer__bottom__link">Cookies</a>
+            </div>
+         </div>
+      </div>
+</footer>
+      <div id="popup-tovar" class="popup">
+   <div class="popup__body">
+      <div class="popup__content popup-tovar">
+         <div class="remove-popup close__popup">
+            <div class="remove__popop__line"></div>
+            <div class="remove__popop__line"></div>
+         </div>
+         <h3 class="popup-tovar__title">Отправить заявку или задать вопрос по товару</h3>
+         <div class="input__container">
+            <span class="input__name">Ваше имя</span>
+            <input type="text" class="input-class">
+         </div>
+         <div class="input__container">
+            <span class="input__name">Телефон</span>
+            <input type="text" class="input-class">
+         </div>
+         <div class="input__container">
+            <span class="input__name">Email</span>
+            <input type="text" class="input-class">
+         </div>
+         <div class="input__container">
+            <span class="input__massage">Сообщение</span>
+            <textarea type="text" class="textarea-class"></textarea>
+         </div>
+         <button class="popup-tovar__button button">Заказать звонок</button>
+         <div class="popup-tovar__footer">Нажатием кнопки "Заказать звонок" я даю свое согласие на отправку
+            персональных
+            данных в соответствии с указанными <a href="text.html" class="popup-tovar__footer__link">здесь</a>
+            условиями</div>
+      </div>
+   </div>
+</div>
+
+   </div>
+</body>
+
+</html>
