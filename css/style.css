@@ -1200,7 +1200,9 @@ section::after {
           align-items: center;
   border: 2px solid #2AA7FF;
   border-radius: 50%;
-  top: 35%;
+  top: 0;
+  bottom: 0;
+  margin: auto;
   z-index: 50;
   cursor: pointer;
 }
